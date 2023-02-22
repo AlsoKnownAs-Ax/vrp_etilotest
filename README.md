@@ -4,8 +4,8 @@ Alcohol system with a usable breathalyzer.
 Video: https://youtu.be/NPhuj5gSU98
 -----------------------
 # Credits:
-> --Ax-#0018  --> code </br>
-> pFULCRUMq --> breathalyzer image
+- --Ax-#0018  --> code </br>
+- pFULCRUMq --> breathalyzer image
 
 -----------------------
 #Showcase
