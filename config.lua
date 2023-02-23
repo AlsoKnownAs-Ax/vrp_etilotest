@@ -20,7 +20,7 @@ Config.etilotest = {
         item_weight = 0.5,
     },
 }
-Config.FallChange = 5       --// 5 = 50%
+Config.FallChance = 5       --// 5 = 50%
 
 Config.levels = {
     {
