@@ -192,8 +192,9 @@ end)
 
 ---------------------- DEBUG COMMANDS ------------------
 
-
--- RegisterCommand('testalch',function(source)
---   vRPCax.ActivateEtilotestNUI(source,{true})
---   vRPCax.ActivateTest(source,{50,true})
--- end)
+if Config.debug then
+  RegisterCommand('testalch',function(source)
+   vRPCax.ActivateEtilotestNUI(source,{true})
+   vRPCax.ActivateTest(source,{50,true})
+ end)
+end
