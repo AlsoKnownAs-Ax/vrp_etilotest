@@ -107,7 +107,7 @@ function vRPCax.addDrunk(_lvl)
 						shake = true
 					end
 					local change = math.random(10)
-					if change <= Config.FallChange then
+					if change <= Config.FallChance then
 						SetPedToRagdollWithFall(ped, 1500, 2000, 1, GetEntityForwardVector(ped))
 					end
 				elseif shake then
