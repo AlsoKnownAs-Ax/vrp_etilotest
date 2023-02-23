@@ -1,7 +1,7 @@
 # vrp_etilotest
 Alcohol system with a usable breathalyzer.
 
-Video: https://youtu.be/NPhuj5gSU98
+Video-Showcase: https://youtu.be/NPhuj5gSU98
 -----------------------
 # Credits:
 - --Ax-#0018  --> code </br>
