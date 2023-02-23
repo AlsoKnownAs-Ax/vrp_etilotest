@@ -200,15 +200,16 @@ end)
 
 ---====================== DEBUG COMMANDS =============================--
 
+if Config.debug then
+	RegisterCommand('zzz', function ()
+		resetMovement()
+		drunk_level = 0
+		ShakeGameplayCam("DRUNK_SHAKE",0.8)
+	end)
 
-RegisterCommand('zzz', function ()
-	resetMovement()
-	drunk_level = 0
-	ShakeGameplayCam("DRUNK_SHAKE",0.8)
-end)
-
-RegisterCommand('xxx', function ()
-	StopGameplayCamShaking(false)
-	SetEntityHealth(PlayerPedId(), 200)
-end)
+	RegisterCommand('xxx', function ()
+		StopGameplayCamShaking(false)
+		SetEntityHealth(PlayerPedId(), 200)
+	end)
+end
 
