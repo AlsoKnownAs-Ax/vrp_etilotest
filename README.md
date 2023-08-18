@@ -9,4 +9,4 @@ Video-Showcase: https://youtu.be/NPhuj5gSU98
 
 -----------------------
 # Showcase
-<img src="https://media.discordapp.net/attachments/968846746513989672/1077943258719727716/image.png?width=1123&height=613">
+<img src="https://media.discordapp.net/attachments/968846746513989672/1142131827084120274/image.png?width=734&height=380">
