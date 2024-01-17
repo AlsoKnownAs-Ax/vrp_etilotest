@@ -143,8 +143,11 @@ function vRPCax.addDrunk(_lvl)
 		Citizen.CreateThread(function ()
 			while drunk_loop do
 				Citizen.Wait(Config.sv_sync_timer*1000)
-				vRPSax.sync_alcohol({math.floor(math.abs(drunk_level/10))})	--// Dealing with negative numbers
-				Debug("SYNCED: ",math.floor(math.abs(drunk_level/10)))
+				if drunk_level < 0 then
+					drunk_level = 0
+				end
+				vRPSax.sync_alcohol({math.floor(drunk_level/10)})
+				Debug("SYNCED: ",math.floor(drunk_level/10))
 			end
 		end)
 	else
